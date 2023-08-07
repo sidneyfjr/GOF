@@ -1,4 +1,5 @@
 class Singleton {
+  
     constructor() {
       // Aqui você pode definir os atributos que deseja na sua classe Singleton
       // Esses atributos serão compartilhados em todas as instâncias.
