@@ -1,0 +1,17 @@
+version: '3'
+
+services:
+
+  gof:
+    build:
+      context: .
+      dockerfile: dockerfile
+    container_name: gof
+    # entrypoint
+    # networks:
+    #   - node-postgres
+    # ports:
+    #   - 3001:3001
+    volumes:
+      - .:/usr/src/app
+    tty: true

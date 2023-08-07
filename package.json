@@ -1,0 +1,12 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "singleton": "node ./creational/singleton/src/singleton.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
