@@ -1,6 +1,4 @@
-“Garantir que uma classe tenha somente uma instância no programa e fornecer um ponto de acesso global para a mesma”
-
-Em muitos casos substitui variáveis globais.
+Intenção: “Garantir que uma classe tenha somente uma instância no programa e fornecer um ponto de acesso global para a mesma”
 
 Exemplos: 
 
@@ -12,10 +10,9 @@ Definir o tema da aplicação.
 
 Um pool de conexão para acesso ao banco de dados.
 
+Em muitos casos substitui variáveis globais.
 
 Obs: Quebra o princípio da responsabilidade única.
-
-IA
 
 O padrão Singleton é um padrão de projeto de software que garante que uma classe tenha apenas uma única instância e fornece um ponto de acesso global para essa instância. Isso significa que, em uma aplicação, independentemente de quantas vezes você tentar criar uma instância dessa classe, ela sempre retornará a mesma instância já criada anteriormente.
 
