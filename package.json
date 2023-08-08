@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "singleton": "node ./creational/singleton/src/singleton.js",
-    "builder"  : "node ./creational/builder/src/builder.js"
+    "singleton" : "node ./creational/singleton/src/singleton.js" ,
+    "builder"   : "node ./creational/builder/src/builder.js"     ,
+    "prototype" : "node ./creational/prototype/src/prototype.js"     
   },
   "keywords": [],
   "author": "",
