@@ -1,3 +1,13 @@
+/*
+  Neste exemplo, temos a classe `Product`, que é o objeto complexo a ser criado. 
+  Em seguida, temos a classe `ProductBuilder`, que contém métodos para configurar as partes do objeto `Product`. 
+  Através dos métodos `buildPartA`, `buildPartB` e `buildPartC`, você pode configurar cada parte do objeto `Product`. 
+  Finalmente, o método `getResult()` retorna o objeto `Product` final após todas as configurações.
+
+  Usando o padrão Builder, você pode facilmente criar diferentes variações do objeto complexo `Product` com o mesmo 
+  processo de construção, tornando o código mais modular e flexível.
+*/
+
 // Classe Product representa o objeto complexo a ser criado
 class Product {
 

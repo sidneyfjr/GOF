@@ -4,9 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "singleton" : "node ./creational/singleton/src/singleton.js" ,
-    "builder"   : "node ./creational/builder/src/builder.js"     ,
-    "prototype" : "node ./creational/prototype/src/prototype.js"     
+    "singleton" : "node ./creational/singleton/src/singleton.js"  ,
+    "builder"   : "node ./creational/builder/src/builder.js"      ,
+    "prototype" : "node ./creational/prototype/src/prototype.js"  ,  
+    "factory"   : "node ./creational/factory/src/factory.js"      ,  
+    "factory2"  : "node ./creational/factory/src/factory2.js"    
   },
   "keywords": [],
   "author": "",
