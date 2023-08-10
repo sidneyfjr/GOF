@@ -1,15 +1,27 @@
 /*
-Um exemplo bem conhecido de uso do padrão Factory Method no dia a dia é a criação de objetos em bibliotecas de interface gráfica (GUI) em diversas linguagens de programação.
+Um exemplo bem conhecido de uso do padrão Factory Method no dia a dia é a criação de objetos 
+em bibliotecas de interface gráfica (GUI) em diversas linguagens de programação.
 
-Imagine que você esteja desenvolvendo uma aplicação com uma GUI e precisa criar diferentes tipos de botões, como botões de OK, Cancelar e Ajuda. Em vez de criar esses botões diretamente no código da aplicação, você pode usar o padrão Factory Method para criar uma hierarquia de classes que lida com a criação de botões. Isso permite que você adicione novos tipos de botões no futuro sem modificar o código principal da aplicação.
+Imagine que você esteja desenvolvendo uma aplicação com uma GUI e precisa criar 
+diferentes tipos de botões, como botões de OK, Cancelar e Ajuda. 
+Em vez de criar esses botões diretamente no código da aplicação, você pode usar o 
+padrão Factory Method para criar uma hierarquia de classes que lida com a criação de botões. 
+Isso permite que você adicione novos tipos de botões no futuro sem modificar o código 
+principal da aplicação.
 
-Neste exemplo, temos a classe base `Button` e subclasses como `OkButton`, `CancelButton` e `HelpButton`, cada uma representando um tipo de botão. O Factory Method `createButton` permite criar diferentes tipos de botões de acordo com o argumento passado.
+Neste exemplo, temos a classe base `Button` e subclasses como `OkButton`, 
+`CancelButton` e `HelpButton`, cada uma representando um tipo de botão. 
+O Factory Method `createButton` permite criar diferentes tipos de botões de acordo 
+com o argumento passado.
 
-Usar o padrão Factory Method nesse cenário permite que você adicione facilmente novos tipos de botões sem modificar a lógica principal da aplicação. Isso é especialmente útil em situações onde a GUI pode evoluir com o tempo e você deseja manter seu código flexível e extensível.
+Usar o padrão Factory Method nesse cenário permite que você adicione facilmente novos 
+tipos de botões sem modificar a lógica principal da aplicação. Isso é especialmente útil 
+em situações onde a GUI pode evoluir com o tempo e você deseja manter seu código flexível e extensível.
 */
 
 // Classe base para botões
 class Button {
+
   constructor(label) {
     this.label = label;
   }
@@ -17,6 +29,7 @@ class Button {
   click() {
     console.log(`${this.label} button clicked.`);
   }
+  
 }
 
 // Subclasses de botões
