@@ -10,7 +10,7 @@ Considere um aplicativo que precisa funcionar em diferentes sistemas operacionai
 
 Alguns outros exemplos de uso do padrão Abstract Factory:
 
-1. ***Criação de Componentes em Jogos: *** Em jogos de videogame, o padrão Abstract Factory pode ser usado para criar famílias de componentes, como personagens, inimigos, armas e itens, garantindo que eles compartilhem uma mesma temática ou contexto.
+1. ***Criação de Componentes em Jogos:*** Em jogos de videogame, o padrão Abstract Factory pode ser usado para criar famílias de componentes, como personagens, inimigos, armas e itens, garantindo que eles compartilhem uma mesma temática ou contexto.
 
 2. ***Criação de Plataformas de Pagamento em Sistemas de Pagamentos:*** Em sistemas de pagamentos online, o padrão Abstract Factory pode ser usado para criar famílias de classes relacionadas à manipulação de diferentes plataformas de pagamento, como cartões de crédito, PayPal e Bitcoin.
 
