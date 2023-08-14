@@ -16,7 +16,9 @@
     "abstract-factory2" : "node ./creational/abstract-factory/src/abstract-factory2.js"  ,
     "composite"         : "node ./structural/composite/src/composite.js"                 ,
     "composite2"        : "node ./structural/composite/src/composite2.js"                ,
-    "adapter"           : "node ./structural/adapter/src/adapter.js"                
+    "adapter"           : "node ./structural/adapter/src/adapter.js"                     ,
+    "bridge"            : "node ./structural/bridge/src/bridge.js"                       ,
+    "bridge2"            : "node ./structural/bridge/src/bridge2.js"                     
   },
   "keywords": [],
   "author": "",
