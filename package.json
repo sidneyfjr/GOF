@@ -18,7 +18,9 @@
     "composite2"        : "node ./structural/composite/src/composite2.js"                ,
     "adapter"           : "node ./structural/adapter/src/adapter.js"                     ,
     "bridge"            : "node ./structural/bridge/src/bridge.js"                       ,
-    "bridge2"            : "node ./structural/bridge/src/bridge2.js"                     
+    "bridge2"           : "node ./structural/bridge/src/bridge2.js"                      ,
+    "decorator"         : "node ./structural/decorator/src/decorator.js"                 ,
+    "decorator2"        : "node ./structural/decorator/src/decorator2.js"                     
   },
   "keywords": [],
   "author": "",
