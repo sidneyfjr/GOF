@@ -20,7 +20,8 @@
     "bridge"            : "node ./structural/bridge/src/bridge.js"                       ,
     "bridge2"           : "node ./structural/bridge/src/bridge2.js"                      ,
     "decorator"         : "node ./structural/decorator/src/decorator.js"                 ,
-    "decorator2"        : "node ./structural/decorator/src/decorator2.js"                     
+    "decorator2"        : "node ./structural/decorator/src/decorator2.js"                ,
+    "facade"            : "node ./structural/facade/src/facade.js"                       
   },
   "keywords": [],
   "author": "",
