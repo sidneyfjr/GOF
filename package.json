@@ -21,7 +21,9 @@
     "bridge2"           : "node ./structural/bridge/src/bridge2.js"                      ,
     "decorator"         : "node ./structural/decorator/src/decorator.js"                 ,
     "decorator2"        : "node ./structural/decorator/src/decorator2.js"                ,
-    "facade"            : "node ./structural/facade/src/facade.js"                       
+    "facade"            : "node ./structural/facade/src/facade.js"                       ,
+    "proxy"             : "node ./structural/proxy/src/proxy.js"                         ,
+    "proxy2"            : "node ./structural/proxy/src/proxy2.js"                         
   },
   "keywords": [],
   "author": "",
