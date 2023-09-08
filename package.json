@@ -23,7 +23,8 @@
     "decorator2"        : "node ./structural/decorator/src/decorator2.js"                ,
     "facade"            : "node ./structural/facade/src/facade.js"                       ,
     "proxy"             : "node ./structural/proxy/src/proxy.js"                         ,
-    "proxy2"            : "node ./structural/proxy/src/proxy2.js"                         
+    "proxy2"            : "node ./structural/proxy/src/proxy2.js"                        ,
+    "flyweight"         : "node ./structural/flyweight/src/flyweight.js"
   },
   "keywords": [],
   "author": "",
