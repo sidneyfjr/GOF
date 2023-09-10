@@ -24,7 +24,8 @@
     "facade"            : "node ./structural/facade/src/facade.js"                       ,
     "proxy"             : "node ./structural/proxy/src/proxy.js"                         ,
     "proxy2"            : "node ./structural/proxy/src/proxy2.js"                        ,
-    "flyweight"         : "node ./structural/flyweight/src/flyweight.js"
+    "flyweight"         : "node ./structural/flyweight/src/flyweight.js"                 ,
+    "strategy"         : "node ./behavioral/strategy/src/strategy.js"                 
   },
   "keywords": [],
   "author": "",
