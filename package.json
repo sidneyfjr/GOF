@@ -26,7 +26,8 @@
     "proxy2"            : "node ./structural/proxy/src/proxy2.js"                        ,
     "flyweight"         : "node ./structural/flyweight/src/flyweight.js"                 ,
     "strategy"          : "node ./behavioral/strategy/src/strategy.js"                   ,
-    "command"           : "node ./behavioral/command/src/command.js"                    
+    "command"           : "node ./behavioral/command/src/command.js"                     ,
+    "memento"           : "node ./behavioral/memento/src/memento.js"                     
   },
   "keywords": [],
   "author": "",
