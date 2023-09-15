@@ -1,5 +1,7 @@
 FROM node:slim
 
-USER node
+RUN apt-get update -y && apt-get install -y git
+
+#USER node
 
 WORKDIR /usr/src/app
