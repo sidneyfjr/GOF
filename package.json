@@ -28,7 +28,8 @@
     "strategy"          : "node ./behavioral/strategy/src/strategy.js"                   ,
     "command"           : "node ./behavioral/command/src/command.js"                     ,
     "memento"           : "node ./behavioral/memento/src/memento.js"                     ,
-    "state"           : "node ./behavioral/state/src/state.js"                     
+    "state"             : "node ./behavioral/state/src/state.js"                         ,
+    "mediator"          : "node ./behavioral/mediator/src/mediator.js"                           
   },
   "keywords": [],
   "author": "",
