@@ -1,6 +1,6 @@
 FROM node:slim
 
-RUN apt-get update -y && apt-get install -y git
+RUN apt-get update -y && apt-get install -y git 
 
 #USER node
 
