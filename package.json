@@ -29,7 +29,8 @@
     "command"           : "node ./behavioral/command/src/command.js"                     ,
     "memento"           : "node ./behavioral/memento/src/memento.js"                     ,
     "state"             : "node ./behavioral/state/src/state.js"                         ,
-    "mediator"          : "node ./behavioral/mediator/src/mediator.js"                           
+    "mediator"          : "node ./behavioral/mediator/src/mediator.js"                   ,       
+    "chain"             : "node ./behavioral/chain-of-responsability/src/chain.js"                          
   },
   "keywords": [],
   "author": "",
