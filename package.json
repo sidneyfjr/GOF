@@ -30,7 +30,8 @@
     "memento"           : "node ./behavioral/memento/src/memento.js"                     ,
     "state"             : "node ./behavioral/state/src/state.js"                         ,
     "mediator"          : "node ./behavioral/mediator/src/mediator.js"                   ,       
-    "chain"             : "node ./behavioral/chain-of-responsability/src/chain.js"                          
+    "chain"             : "node ./behavioral/chain-of-responsability/src/chain.js"       ,                    
+    "template"          : "node ./behavioral/template-method/src/template-method.js"                           
   },
   "keywords": [],
   "author": "",

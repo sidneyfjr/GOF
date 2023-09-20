@@ -1,7 +1,7 @@
 /*
-Neste exemplo, temos um contexto (AlertaContexto) que possui um estado inicial (verde). 
-Conforme o estado muda (amarelo ou vermelho), o comportamento associado muda, 
-demonstrando a aplicação do padrão State.
+  Neste exemplo, temos um contexto (AlertaContexto) que possui um estado inicial (verde). 
+  Conforme o estado muda (amarelo ou vermelho), o comportamento associado muda, 
+  demonstrando a aplicação do padrão State.
 */
 
 // Interface para representar os estados
