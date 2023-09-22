@@ -31,7 +31,8 @@
     "state"             : "node ./behavioral/state/src/state.js"                         ,
     "mediator"          : "node ./behavioral/mediator/src/mediator.js"                   ,       
     "chain"             : "node ./behavioral/chain-of-responsability/src/chain.js"       ,                    
-    "template"          : "node ./behavioral/template-method/src/template-method.js"                           
+    "template"          : "node ./behavioral/template-method/src/template-method.js"     ,                    
+    "observer"          : "node ./behavioral/observer/src/observer.js"                         
   },
   "keywords": [],
   "author": "",
